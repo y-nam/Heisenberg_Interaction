@@ -1,0 +1,10 @@
+The first release of Heisenberg_Interaction was developed by Yunseong Nam 
+and Dmitri Maslov in 2018.
+
+The low cost quantum dynamics circuit implementations contained 
+in this repository are described in detail in the paper
+
+* Yunseong Nam and Dmitri Maslov,
+  Low cost quantum circuits for classically intractable instances 
+  of the Hamiltonian dynamics simulation problem, May 2018. 
+  Available from https://arxiv.org/abs/1805.04645.
