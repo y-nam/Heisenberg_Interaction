@@ -52,6 +52,9 @@ In this special case, the notation is
 
 Note that the control qubit comes first.
 
+
+To express the circuit, we use the following notation.
+
 * "seq $NAME" denotes a quantum gate sequence with $NAME as the name.
 * "exp $NAME" expands the $NAME quantum gate sequence.
 * "repeat #" repeats the codeblock # times.
