@@ -21,7 +21,42 @@ original references can be found in the following paper.
 
 * The code is released under the Apache License. See the LICENSE and
   NOTICE files for more information.
+  
+## Notations
 
+All gates are of the following form
+
+        :G [target(s)] [control(s)] {classical control(s)} Angle
+
+* ":" := Prefix for a gate
+* "G" := Gate type
+* "[]" := Qubit register
+* "{}" := Classical register
+* "Angle" := Optional angle (default pi)
+
+Available gate types are
+
+* i := Initialization to 0
+* m := Measurement
+* h := Hadamard gate
+* rz := RZ gate
+* s := S gate
+* si := Inverse S gate
+* t := T gate
+* ti := Inverse T gate
+
+The exceptional case in the notation is a CNOT gate.
+In this special case, the notation is
+
+        :cnot [control] [target] {classical control(s)}
+
+Note that the control qubit comes first.
+
+* "seq $NAME" denotes a quantum gate sequence with $NAME as the name.
+* "exp $NAME" expands the $NAME quantum gate sequence.
+* "repeat #" repeats the codeblock # times.
+
+A codeblock, in this notation, is defined according to the off-side rule.
 
 ## Circuits
 
