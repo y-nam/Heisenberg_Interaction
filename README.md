@@ -34,9 +34,13 @@ were carried out using the techniques detailed in the following paper.
   https://arxiv.org/abs/1710.07345.
   npj:Quantum Information 4, 23 (2018).
   
-Filenames for the quantum simulation circuits are
+Filenames for the LCR-optimized quantum simulation circuits are
 
         LCR_Postoptim_(graph_name)_(pFT/FT)_(Order#)
+
+Filenames for the non-LCR optimized quantum simulation circuits are
+
+        Postoptim_(graph_name)_(pFT/FT)_(Order#)
         
 The first () is the connectivity graph (k_d_n): k = degree, d = diameter, n = number of vertices.
 The second () denotes whether the circuit is targeted towards pre-fault tolerant or fault tolerant implementations.
